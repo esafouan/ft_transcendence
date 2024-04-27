@@ -1,0 +1,100 @@
+
+
+
+.cont {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+.container {
+  text-align: center;
+  width: 26vw;
+  height: 42vh;
+
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: linear-gradient(145deg, rgba(13, 21, 38, 1),rgba(22, 89, 83, 1));
+  box-shadow:   5px 5px 10px rgba(13, 21, 38, 1),
+                -5px -5px 10px rgba(22, 89, 83, 1);
+}
+
+.login-button {
+  padding: 1vmin 2vmin;
+  background:rgba(29, 242, 182, 1);
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.5vmin;
+  transition: background-color 1s ease;
+  margin: 0vmin 0vmin 12vmin 0vmin;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'Cyber', sans-serif;
+
+}
+.login-button:hover {
+  background-color: #134e27;
+}
+
+.game-title{
+  color:rgba(29, 242, 182, 1);
+  font-size: 5vmin;
+  font-weight: bold;
+  font-family: 'Cyber', sans-serif;
+  margin-top: 7vmin;
+}
+
+.wfa-container
+{
+  background: #0D1526;
+  position: relative;
+}
+
+.wfa{
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  width: 27vw;
+  height: 35vh;
+  border-radius: 5px;
+  border: 1px solid #8BD9D1;
+  background: linear-gradient(145deg, rgba(13, 21, 38, 1),rgba(22, 89, 83, 1));
+  box-shadow:   -3px -3px 10px rgba(13, 21, 38, 1),
+                3px 3px 10px rgba(22, 89, 83, 1);
+}
+
+.wfa .h11 {
+  position: absolute;
+  font-size: 3.5vmin;
+  color: #FFF;
+  left: 13%;
+  top: 10%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.wfa .input {
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid #8BD9D1;
+  height: 2vh;
+  width: 12vw;
+  top: 41%;
+  left: 27%;
+}
+.wfa > Button{
+  width: fit-content;
+  height: fit-content;
+  top: 67%;
+  left: 43%;
+  position: absolute;
+  padding: 1vh;
+}

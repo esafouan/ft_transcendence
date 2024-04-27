@@ -1,0 +1,140 @@
+.Userprofile 
+{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background: #0D1526;
+    overflow: hidden;
+}
+
+.stat-title{
+    margin: -26vmin 0vmin 0vmin 49vmin;
+    color: white;
+    font-size: 2vmin;
+}
+
+.ImgProfile {
+    top: 6%;
+    object-fit: cover;
+}
+.player-infos{
+    margin-top: -1vmin;
+}
+.stats-container {
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 7.5vmin;
+    height: 84%;
+    background: linear-gradient(145deg, rgba(13, 21, 38, 1),rgba(22, 89, 83, 1));
+    box-shadow:   5px 5px 10px rgba(13, 21, 38, 1),
+                  -5px -5px 10px rgba(22, 89, 83, 1);
+
+    margin-left: -2.3vmin;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.matches{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.wins{
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+.loses{
+    grid-area: 1 / 3 / 2 / 4;
+}
+.new-game-container {
+    height: 90%;
+}
+
+.matches-tit{
+    margin: 5vmin 0vmin 0vmin 13vmin;
+    color: white;
+    font-size: 3vmin;
+}
+
+.wins-tit {
+    margin: 5vmin 0vmin 0vmin 13vmin;
+    color: white;
+    font-size: 3vmin;
+}
+
+.loses-tit{
+    margin: 5vmin 0vmin 0vmin 13vmin;
+    color: white;
+    font-size: 3vmin;
+}
+
+.achievements-container {
+    grid-area: 1 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 2px;
+    position: relative;
+  }
+  
+  .achiv {
+    height: 76%;
+    width: 56%;
+    border-radius: 10px;
+    background-image: url('../../assets/fog.png');
+    position: absolute;
+    margin-top: 11.5vmin;
+    margin-left: 12vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* overflow-y: auto; */
+  }
+  
+.achievement-item {
+    margin: 5vmin 0vmin 1vmin 8vmin;
+    height: fit-content;
+}
+
+.achievement-item img {
+    width: 9vmin;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.achi-title{
+    color: white;
+    margin: 7vmin 0vmin 0vmin 19vmin;
+    font-size: 2vmin;
+}
+.ttmatches{
+    width: fit-content;
+  height: fit-content;
+  margin-top: -18vmin;
+  margin-left: 17vmin;
+  font-size: 5vmin;
+  color: white;
+}
+.ttwins{
+    width: fit-content;
+    height: fit-content;
+    margin-top: -18vmin;
+    margin-left: 15vmin;
+    font-size: 5vmin;
+    color: white;
+}
+.ttloses{
+    width: fit-content;
+    height: fit-content;
+    margin-top: -18vmin;
+    margin-left: 15vmin;
+    font-size: 5vmin;
+    color: white;
+}
